@@ -2,6 +2,7 @@ fn main() {
     println!("Hello, world!");
 
     // loop label
+    // 条件式の部分には値とかは入らない、勝手に真偽値に変換しない
     let mut i = 0;
     'first_loops: loop{
         let mut j = 0;
